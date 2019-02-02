@@ -1,7 +1,13 @@
 {
   "name": "angular-nativescript-firebase-akita-starter",
   "nativescript": {
-    "id": "org.nativescript.angularnativescriptfirebaseakitastarter"
+    "id": "org.nativescript.angularnativescriptfirebaseakitastarter",
+    "tns-android": {
+      "version": "5.1.0"
+    },
+    "tns-ios": {
+      "version": "5.1.1"
+    }
   },
   "version": "0.0.0",
   "scripts": {
