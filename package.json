@@ -1,7 +1,7 @@
 {
   "name": "angular-nativescript-firebase-akita-starter",
   "nativescript": {
-    "id": "org.nativescript.angularnativescriptfirebaseakitastarter",
+    "id": "com.resistor.anfa.starter",
     "tns-android": {
       "version": "5.1.0"
     },
@@ -27,18 +27,19 @@
     "@angular/compiler": "~7.2.0",
     "@angular/core": "~7.2.0",
     "@angular/forms": "~7.2.0",
+    "@angular/http": "~7.1.0",
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
-    "rxjs": "~6.3.3",
-    "tslib": "^1.9.0",
-    "zone.js": "~0.8.26",
-    "@angular/http": "~7.1.0",
     "nativescript-angular": "~7.1.0",
+    "nativescript-plugin-firebase": "^7.7.0",
     "nativescript-theme-core": "~1.0.4",
     "reflect-metadata": "~0.1.8",
-    "tns-core-modules": "~5.1.1"
+    "rxjs": "~6.3.3",
+    "tns-core-modules": "~5.1.1",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "179735078764",
+    "firebase_url": "https://anfa-starter.firebaseio.com",
+    "project_id": "anfa-starter",
+    "storage_bucket": "anfa-starter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179735078764:android:4c187fc62c8980f2",
+        "android_client_info": {
+          "package_name": "com.resistor.anfa.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179735078764-jb2hgp9p9oo8kskmt0cvkli0mansv5mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmX9Ffn7yuCNlKG0_w1kRC2JCIwHG-6Eg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
