@@ -8,16 +8,21 @@
 android {  
   defaultConfig {  
     generatedDensities = []
-    applicationId = "org.nativescript.angularnativescriptfirebaseakitastarter" 
+    applicationId = "com.resistor.anfa.starter" 
     
     //override supported platforms
     // ndk {
     //       abiFilters.clear()
     //   		abiFilters "armeabi-v7a"
  		// }
-  
+    multiDexEnabled true
+    project.ext {
+      googlePlayServicesVersion = "+"
+    }
   }  
   aaptOptions {  
     additionalParameters "--no-version-vectors"  
   }  
 } 
+
+apply plugin: 'com.google.gms.google-services'
