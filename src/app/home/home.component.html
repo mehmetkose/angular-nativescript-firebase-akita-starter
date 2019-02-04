@@ -3,4 +3,6 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
+  <button (click)="login()">Log in anonymously</button>
+  <div *ngIf="isAuthed">logged in!</div>
 </div>
